@@ -1,16 +1,16 @@
 {
   "name": "oxphobia",
-  "version": "0.0.1",
-  "description": "Calculate minified & gzipped bundle size via JSDelivr + Oxc + Terser",
+  "version": "0.0.2",
+  "description": "Calculate minified & gzipped bundle size via JSDelivr + Oxc (Parser/Minifier)",
   "bin": {
     "oxphobia": "./cli.js"
   },
   "type": "module",
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.12.0"
   },
   "dependencies": {
-    "oxc-parser": "^0.60.0",
-    "terser": "^5.31.0"
+    "oxc-minify": "^0.114.0",
+    "oxc-parser": "^0.114.0"
   }
 }
